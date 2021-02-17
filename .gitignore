@@ -12,4 +12,4 @@
 # Dont ignore .gitignore (this file)
 !/.gitignore
 
-.idea/
+/.idea/
