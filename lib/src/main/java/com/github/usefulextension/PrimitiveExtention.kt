@@ -85,3 +85,10 @@ fun String?.toSafeInt(): Int? = run {
         null
     }
 }
+
+val String.isDigit: Boolean
+    get() = matches(Regex(".*[0-9].*"))
+
+val String.isAlphanumeric: Boolean
+    get() = matches(Regex("[a-zA-Z0-9]*"))
+
