@@ -6,8 +6,7 @@ Useful Kotlin extension functions for Android
 ```
 allprojects {
     repositories {
-    ...
-    maven { url 'https://jitpack.io' }
+        maven { url 'https://jitpack.io' }
     }
 }
 ```
